@@ -28,6 +28,7 @@
   </project>
   <project path="common" remote="t25" name="android_kernel_nothing_mt6886" revision="kuuhaku" >
     <linkfile src="." dest=".source_date_epoch_dir" />
+    <linkfile src="." dest="kernel-5.15" />
   </project>
   <project path="kernel/tests" name="kernel/tests" revision="main" />
   <project path="kernel/configs" name="kernel/configs" />
