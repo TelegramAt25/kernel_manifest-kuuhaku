@@ -3,6 +3,8 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+  <remote  name="t25"
+           fetch="https://github.com/TelegramAt25" />
 
   <default revision="master-kernel-build-2022"
            remote="aosp"
@@ -24,7 +26,7 @@
     <linkfile src="abi" dest="build/abi" />
     <linkfile src="static_analysis" dest="build/static_analysis" />
   </project>
-  <project path="common" name="kernel/common" revision="android13-5.15" >
+  <project path="common" remote="t25" name="android_kernel_nothing_mt6886" revision="kuuhaku" >
     <linkfile src="." dest=".source_date_epoch_dir" />
   </project>
   <project path="kernel/tests" name="kernel/tests" revision="main" />
