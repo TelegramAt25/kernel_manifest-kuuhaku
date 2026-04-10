@@ -43,7 +43,7 @@
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
-  <project path="vendor/mediatek/kernel_modules" remote="t25" name="android_kernel_modules_nothing_mt6886" revision="kuuhaku_upstream" />
+  <project path="vendor/mediatek/kernel_modules" remote="t25" name="android_kernel_modules_nothing_mt6886" revision="kuuhaku" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
