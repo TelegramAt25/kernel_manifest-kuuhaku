@@ -31,7 +31,7 @@
     <linkfile src="." dest=".source_date_epoch_dir" />
   </project>
   -->
-  <project path="kernel-5.15" remote="t25" name="android_kernel_nothing_mt6886" revision="kuuhaku_upstream" />
+  <project path="kernel-5.15" remote="t25" name="android_kernel_nothing_mt6886" revision="eh" />
   <project path="kernel/tests" name="kernel/tests" revision="main" />
   <project path="kernel/configs" name="kernel/configs" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android13-5.15" />
@@ -43,7 +43,7 @@
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
-  <project path="vendor/mediatek/kernel_modules" remote="t25" name="android_kernel_modules_nothing_mt6886" revision="kuuhaku_upstream" />
+  <project path="vendor/mediatek/kernel_modules" remote="t25" name="android_kernel_modules_nothing_mt6886" revision="eh" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
